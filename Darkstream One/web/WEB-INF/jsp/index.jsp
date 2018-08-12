@@ -32,7 +32,7 @@
             }
             div.backDiff {
                 background-color: rgba(50, 50, 50, 0.6);
-                
+
                 position: relative;
                 top: 50;
                 align-self: center;
@@ -41,12 +41,23 @@
                 width: 80%;
                 height: 60%;
             }
+            div.filmCard{
+                size: 100;
+                background-color: aqua;
+
+            }
+            img.li
+            {
+               
+                float:left;
+                color: red;
+            }
 
 
 
         </style>
 
-    
+
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Darkstream One</title>
@@ -58,13 +69,15 @@
 
         <div id="captionLine" class="layer">
             <h2 class="big" >Darkstream One</h2>
-             <h1 class="uC"><i>... the way you have to watch Animes!</i></h1>
+            <h1 class="uC"><i>... the way you have to watch Animes!</i></h1>
         </div>
-        
+
         <div id="backDif" class="backDiff">
-           
+            <img  class="li" src="res/3.PNG"  width="100" height="100">
+            <img  class="li" src="res/4.PNG"  width="100" height="100">
+            <img  class="li" src="res/5.PNG"  width="100" height="100">
         </div>
-        
-       
+
+
     </body>
 </html>
